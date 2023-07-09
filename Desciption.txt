@@ -1,0 +1,32 @@
+Dự án: Hệ thống quản lý thư viện
+
+Mô tả dự án:
+Dự án này là một hệ thống quản lý thư viện sử dụng các cấu trúc dữ liệu và giải thuật trong môn học cấu trúc dữ liệu và giải thuật.
+Hệ thống này sẽ hỗ trợ quản lý sách, độc giả, và các giao dịch mượn/trả sách trong một thư viện ảo.
+
+Chức năng chính:
+
+Quản lý sách:
+Sử dụng cấu trúc dữ liệu danh sách liên kết đơn để lưu trữ thông tin về sách, bao gồm mã sách, tên sách, tác giả, và số lượng sách có sẵn.
+Hỗ trợ thêm sách mới, xóa sách, tìm kiếm sách theo mã sách hoặc tên sách.
+Sử dụng giải thuật sắp xếp để hiển thị danh sách sách theo thứ tự mã sách hoặc tên sách.
+
+Quản lý độc giả:
+Sử dụng cấu trúc dữ liệu danh sách liên kết kép để lưu trữ thông tin về độc giả, bao gồm mã độc giả, tên độc giả, địa chỉ, và danh sách các sách đang mượn.
+Hỗ trợ thêm độc giả mới, xóa độc giả, tìm kiếm độc giả theo mã độc giả hoặc tên độc giả.
+Sử dụng giải thuật sắp xếp để hiển thị danh sách độc giả theo thứ tự mã độc giả hoặc tên độc giả.
+
+Giao dịch mượn/trả sách:
+Sử dụng cấu trúc dữ liệu danh sách liên kết đơn để lưu trữ thông tin về các giao dịch mượn/trả sách.
+Mỗi giao dịch sẽ bao gồm thông tin về mã độc giả, mã sách, ngày mượn và ngày trả dự kiến.
+Hỗ trợ thực hiện giao dịch mượn sách, giao dịch trả sách, và tìm kiếm giao dịch theo mã độc giả hoặc mã sách.
+Sử dụng giải thuật sắp xếp để hiển thị danh sách các giao dịch theo thứ tự ngày mượn.
+
+Cấu trúc dữ liệu cây nhị phân tìm kiếm:
+Sử dụng cấu trúc dữ liệu cây nhị phân tìm kiếm để lưu trữ thông tin về sách và độc giả, cho phép tìm kiếm nhanh theo mã sách hoặc mã độc giả.
+Hash table:
+
+Sử dụng cấu trúc dữ liệu hash table để lưu trữ thông tin về sách và độc giả, cho phép truy cập nhanh dựa trên khóa (ví dụ: mã sách, mã độc giả).
+B-tree:
+Sử dụng cấu trúc dữ liệu B-tree để lưu trữ thông tin về sách và độc giả, cho phép tìm kiếm, thêm, xóa, và cập nhật dữ liệu hiệu quả.
+Ngôn ngữ lập trình: Dự án này được thực hiện bằng ngôn ngữ C++,Python.
